@@ -1,0 +1,15 @@
+.box{
+    background-color: beige;
+    border: 1px solid black;
+    display: flix;
+    margin: 80px;
+    padding: 30px;
+    height: 500px;
+}
+@media (max-width:320px) {
+    .box{
+    margin: 10px;
+    padding: 10px;
+    height: 500px;
+    }
+}
