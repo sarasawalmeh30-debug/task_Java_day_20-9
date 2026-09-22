@@ -3,7 +3,7 @@ let name = prompt("Enter your Name : ");
 let age =Number(prompt("Enter your Number :"));
 let Gender = prompt("Enter your Gender (Femal or Male) : ");
 if(Gender=="Male" || Gender=="male"){
-    alert("Welcome Mr."+nname);
+    alert("Welcome Mr."+name);
 }else if(Gender=="Female" || Gender=="female"){
     alert("Welcome Ms."+name );
 }
