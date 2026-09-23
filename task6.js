@@ -15,7 +15,7 @@ if (order[i].checked){
 }
 function color(){
 button.style.backgroundColor="blue";
-heading[0].style.color = "pink";
+heading[0].style.color = "red";
 }
 function oregin(){
 button.style.backgroundColor="gray";
