@@ -23,7 +23,6 @@ let result = "";
 for (let i = 0; i < num.length; i++) {
 
     result += num[i];
-
     if (num[i] % 2 === 0 && num[i + 1] % 2 === 0) {
         result += "-";
     }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <select onclick="clickfont()">
+            <option>Times New Roman</option>
+            <option  >Fantasy</option>
+        </select>
+         <select  onclick="clickpx()">
+            <option >10px</option>
+             <option >15px</option>
+        </select>
+        <lebel >
+            <input onclick="clickItalic()" type="checkbox" value="Italic">
+            Italic
+        </lebel>
+        <lebel >
+            <input onclick="clickBold()" type="checkbox" value="Bold">
+            Bold
+        </lebel>
+        <lebel >
+            <input onclick="clickUnderline()" type="checkbox" value="Underline">
+            Underline
+        </lebel>
+    </form>
+    <div style="border: 2px solid black; height: 300px;padding-left: 20px;margin: 10px;">
+        <p id="p" onclick="showMessage()">the quick brown fox over the lazy dog</p>
+    </div>
+    <script src="task4.js"></script>
+</body>
+</html>
