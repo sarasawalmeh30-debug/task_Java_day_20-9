@@ -1,17 +1,49 @@
 let p=document.getElementById("p");
+let font=document.getElementById("font");
+let size=document.getElementById("size");
+let Italic=document.getElementById("Italic");
+let Bold=document.getElementById("Bold");
+let Underline=document.getElementById("Underline");
 function clickfont(){
-p.style.fontFamily="Fantasy";
+    if(font.value=="Fantasy"){
+      p.style.fontFamily="Fantasy";
+    }else{
+         p.style.fontFamily="Times New Roman";
+    }
 }
     
 function clickpx(){
-p.style.fontSize="15px";
+    if(size.value=="15px"){
+        p.style.fontSize="15px";
+    }else{
+     p.style.fontSize="10px"
+    
+    }
+
 }
 function clickItalic(){
-    p.style.fontStyle="italic";
+    if(Italic.checked){
+         p.style.fontStyle="italic";
+    }else{
+         p.style.fontStyle="none";
+    }
+   
 }
 function clickBold(){
-    p.style.fontWeight="bold";
+    if(Bold.checked){
+          p.style.fontWeight="bold";
+    }else{
+          p.style.fontWeight="none";
+    }
+  
 }
 function clickUnderline(){
- p.style.textDecoration = "underline";
+    if(Underline.checked
+        
+    ){
+        p.style.textDecoration ="underline";
+    }else{
+        p.style.textDecoration = "none";
+    }
+ 
 }

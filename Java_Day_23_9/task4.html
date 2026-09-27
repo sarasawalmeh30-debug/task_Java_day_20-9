@@ -7,26 +7,26 @@
 </head>
 <body>
     <form>
-        <select onclick="clickfont()">
+        <select  id="font" onchange="clickfont()">
             <option>Times New Roman</option>
             <option  >Fantasy</option>
         </select>
-         <select  onclick="clickpx()">
+         <select id="size" onchange="clickpx()">
             <option >10px</option>
              <option >15px</option>
         </select>
-        <lebel >
-            <input onclick="clickItalic()" type="checkbox" value="Italic">
+        <label >
+            <input id="Italic" onclick="clickItalic()" type="checkbox" value="Italic">
             Italic
-        </lebel>
-        <lebel >
-            <input onclick="clickBold()" type="checkbox" value="Bold">
+        </lasbel>
+        <label >
+            <input id="Bold" onclick="clickBold()" type="checkbox" value="Bold">
             Bold
-        </lebel>
-        <lebel >
-            <input onclick="clickUnderline()" type="checkbox" value="Underline">
+        </label>
+        <label >
+            <input id="Underline" onclick="clickUnderline()" type="checkbox" value="Underline">
             Underline
-        </lebel>
+        </label>
     </form>
     <div style="border: 2px solid black; height: 300px;padding-left: 20px;margin: 10px;">
         <p id="p" onclick="showMessage()">the quick brown fox over the lazy dog</p>
