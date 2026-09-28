@@ -1,0 +1,25 @@
+ [{
+        "MealName":"Burger",
+        "price":5.99,
+        "availabl":true
+    },
+    {
+       "MealName":"Shwerma",
+        "price":2.5,
+        "availabl":true
+    },
+    {
+        "MealName":"Mansif",
+        "price":4.99,
+        "availabl":true
+    },
+    {
+         "MealName":"salt",
+        "price":2.75,
+        "availabl":false
+    },
+    {
+         "MealName":"Sezer salt",
+        "price":4.75,
+        "availabl":false
+    }]
