@@ -11,5 +11,6 @@ for(let i=0;i<data.length;i++){
      <h3> availabl :${data[i].availabl}</h3>
      <hr>`
 }
+localStorage.setItem("data",JSON.stringify(data));
 
 });
